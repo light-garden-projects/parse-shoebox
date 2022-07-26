@@ -1,19 +1,18 @@
 {
-  "version": "0.0.0",
-  "name": "TODO",
-  "umd:name": "TODO",
-  "repository": "TODO_USERNAME/TODO_REPO",
-  "description": "TODO_MODULE_DESCRIPTION",
+  "version": "0.0.1",
+  "name": "@lightgarden/parse-shoebox",
+  "umd:name": "parse-shoebox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/light-garden-projects/parse-shoebox.git"
+  },
+  "description": "Parse SIL Shoebox files",
   "unpkg": "dist/index.min.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "license": "MIT",
-  "author": {
-    "name": "TODO_YOUR_NAME",
-    "email": "YOUR_EMAIL@TODO.com",
-    "url": "https://TODO_WEBSITE.com"
-  },
+  "author": "Dan Kennedy <dannykennedy@email.com> (https://dannykennedy.co/)",
   "files": [
     "dist",
     "types"
@@ -35,9 +34,10 @@
     "test": "uvu -r tsm test"
   },
   "keywords": [
-    "TODO",
-    "module",
-    "keywords"
+    "Shoebox",
+    "SIL",
+    "parse",
+    "json"
   ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "13.1.3",
@@ -47,5 +47,12 @@
     "tsm": "2.2.1",
     "typescript": "4.5.5",
     "uvu": "0.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/light-garden-projects/parse-shoebox/issues"
+  },
+  "homepage": "https://github.com/light-garden-projects/parse-shoebox#readme",
+  "directories": {
+    "test": "test"
   }
 }
